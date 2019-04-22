@@ -18,19 +18,9 @@ android {
         ]
     }
 
-    signingConfigs {
-        release {
-            keyAlias 'androiddebugkey'
-            keyPassword 'gsdkey'
-            storeFile file('/Users/cz_mob03/Desktop/android_project/gsd.keystore')
-            storePassword 'gsdkey'
-        }
-    }
     buildTypes {
         release {
-            minifyEnabled false
-            signingConfig signingConfigs.release
-        }
+            minifyEnabled false}
         debug {
         }
     }
