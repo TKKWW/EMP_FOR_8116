@@ -1,0 +1,12 @@
+{
+  "client_id": "MxVz4OeVvYxiWxCbfRAA",
+  "redirect_uri": "com.chinaairlines.ciemp:/oauth2redirect",
+  "authorization_scope": "openid",
+  "discovery_uri": "",
+  "authorization_endpoint_uri": "https://iam.china-airlines.com/mga/sps/oauth/oauth20/authorize",
+  "token_endpoint_uri": "https://iam.china-airlines.com/mga/sps/oauth/oauth20/token",
+  "registration_endpoint_uri": "",
+  "user_info_endpoint_uri": "https://iam.china-airlines.com/mga/sps/oauth/oauth20/userinfo",
+  "https_required": true
+}
+

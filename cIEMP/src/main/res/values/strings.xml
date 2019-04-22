@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">你好</string>
+    <string name="menu_settings">設定</string>
+    <string name="gps_network_not_enabled">網路無法連線</string>
+    <string name="open_location_settings">請開啟網路連線</string>
+    <string name="ok">確定</string>
+    <string name="eConnection">網路錯誤，請確認網路連線</string>
+    <string name="bRetry">重試</string>
+    <string name="bClose">關閉APP</string>
+
+    <!-- SplashScreen -->
+    <string name="bDownLoadCIAppstore">更新</string>
+    <string name="eVersion">已釋出新版本EMP</string>
+    <string name="eLoc">請開啟定位服務</string>
+
+    <!-- Login -->
+    <string name="tvAppName">China Airline App Store</string>
+    <string name="etUserId">帳號</string>
+    <string name="etPwd">密碼</string>
+    <string name="bLogin">登入</string>
+
+    <!-- AppList -->
+    <string name="title_activity_list">App 列表</string>
+    <string name="bSetting">設定</string>
+    <string name="tAll">安裝</string>
+    <string name="tUpdate">更新</string>
+    <string name="pdWaiting">請稍候...</string>
+
+    <!-- MainFragment -->
+    <string name="sNothing">無可使用APP</string>
+
+    <!-- Detail -->
+    <string name="title_activity_detail">詳細說明</string>
+    <string name="bInstall">安裝</string>
+    <string name="bUpdate">更新</string>
+    <string name="tDetaildownload">點擊確定後開始下載</string>
+    <string name="eDownloadF5">此功能需先安裝VPN APP方可使用，是否前往安裝？</string>
+
+    <!-- Setting -->
+    <string name="title_activity_setting">設定</string>
+    <string name="bLogout">登出</string>
+    <string name="eLogout">確定要登出嗎?</string>
+    <string name="tvName">姓名：</string>
+    <string name="tvUser">員工編號：</string>
+    <string name="tvUnit">單位：</string>
+    <string name="tvLanguage">選擇語言</string>
+    <string name="tEnglish">English</string>
+    <string name="tChinese">繁體中文</string>
+    <string name="tvUpdateNotice">推播設定</string>
+    <string name="github">GitHub</string>
+    <string name="github_label">SlidingMenu on GitHub</string>
+
+    <!-- Comment -->
+    <string name="tvComment">歡迎您寫下寶貴意見</string>
+    <string name="etComment">意見</string>
+    <string name="sSendOk">感謝您的寶貴意見</string>
+    <string name="sSendErr">送出失敗</string>
+    <string name="sEmpty">請寫下您的意見</string>
+    <string name="sSelect_fbk_item">請選擇意見項目</string>
+
+    <!-- ProgressDialog -->
+    <string name="downloading">讀取中...請稍後</string>
+    <string name="title_activity_comment">意見回覆</string>
+
+    <!-- SlideMenu -->
+    <string name="APPs">企業APP</string>
+    <string name="collectiion">常用APP</string>
+    <string name="notification">推播訊息</string>
+    <string name="comment">意見回饋</string>
+    <string name="renew">更新項目</string>
+    <string name="tk_camera">相機拍照</string>
+    <string name="tk_photo_gallery">相片集</string>
+    <string name="select_photo">請選擇相片</string>
+    <string name="select_crop_app">請選擇相片編輯器</string>
+    <string name="crop_not_found">無法找到相片編輯器的軟體</string>
+    <!-- Notification -->
+    <string name="delete">刪除</string>
+    <!-- Notification -->
+    <string name="unread">未讀</string>
+    <string name="read">已讀</string>
+    <!-- ErrorMsg -->
+    <string name="eLogin">登入失敗</string>
+
+    <!-- EMunu -->
+    <string name="EMunu">建構中...</string>
+    <string name="title_activity_management">Management</string>
+    <string name="action_settings">設定</string>
+
+    <!-- Management -->
+    <string name="app_version">App版號</string>
+    <string name="tablet_Os">作業系統</string>
+    <string name="device_id">裝置識別碼</string>
+    <string name="tablet_Os_Code">手機型號</string>
+    <string name="reset">重置設定</string>
+    <string name="resetMsg">確定要重置?請輸入密碼</string>
+    <string name="setErr">輸入錯誤，請重新輸入</string>
+    <string name="ErrMsg">錯誤訊息</string>
+    <string name="report">回報</string>
+    <string name="eReport">回報失敗</string>
+    <string name="sReport">回報成功</string>
+
+    <string name="app_disabled_message">App 已無法使用,請移除程式。</string>
+    <string name="app_unavailable">EMP 已無法使用</string>
+    <string name="app_storage_error">App 發生資料毀損,建議您重新安裝。</string>
+    <string name="app_system_error">App 系統異常</string>
+    <string name="app_storage_not_enough">儲存空間已低於20MB。</string>
+    <string name="network_not_available">目前沒有可用的網路服務。</string>
+    <string name="location_unavailable_msg">目前沒有 GPS 定位服務,請確認是否已經開啟?</string>
+    <string name="timeout_msg">伺服器忙碌中，請稍候再試。</string>
+    <string name="updatefail_msg">更新失敗，請稍候再試。</string>
+
+    <string name="custom_tab_label">"%1$s (custom tab)"</string>
+    <string name="ePermission">請允許EMP取得所有必要權限</string>
+    <string name="bCancel">取消</string>
+</resources>

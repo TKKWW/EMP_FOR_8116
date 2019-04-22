@@ -1,0 +1,139 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From CIEMP:
+* .DS_Store
+* .idea\
+* .idea\.name
+* .idea\CIEMP.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* ic_launcher-web.png
+* proguard-project.txt
+From library:
+* .DS_Store
+* ._.DS_Store
+* LICENSE.txt
+* build.gradle
+* library.iml
+* pom.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.4.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:23.4.0
+gcm.jar => com.google.android.gms:play-services:+
+gson-2.2.4-javadoc.jar => com.google.code.gson:gson:2.3.1
+gson-2.2.4-sources.jar => com.google.code.gson:gson:2.3.1
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:23.4.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In library:
+* AndroidManifest.xml => library\src\main\AndroidManifest.xml
+* assets\ => library\src\main\assets
+* lint.xml => library\lint.xml
+* res\ => library\src\main\res\
+* src\ => library\src\main\java\
+* src\._.DS_Store => library\src\main\resources\._.DS_Store
+* src\.DS_Store => library\src\main\resources\.DS_Store
+* src\com\._.DS_Store => library\src\main\resources\com\._.DS_Store
+* src\com\.DS_Store => library\src\main\resources\com\.DS_Store
+* src\com\jeremyfeinstein\._.DS_Store => library\src\main\resources\com\jeremyfeinstein\._.DS_Store
+* src\com\jeremyfeinstein\.DS_Store => library\src\main\resources\com\jeremyfeinstein\.DS_Store
+* src\com\jeremyfeinstein\slidingmenu\._.DS_Store => library\src\main\resources\com\jeremyfeinstein\slidingmenu\._.DS_Store
+* src\com\jeremyfeinstein\slidingmenu\.DS_Store => library\src\main\resources\com\jeremyfeinstein\slidingmenu\.DS_Store
+* src\com\jeremyfeinstein\slidingmenu\lib\._.DS_Store => library\src\main\resources\com\jeremyfeinstein\slidingmenu\lib\._.DS_Store
+* src\com\jeremyfeinstein\slidingmenu\lib\.DS_Store => library\src\main\resources\com\jeremyfeinstein\slidingmenu\lib\.DS_Store
+In CIEMP:
+* AndroidManifest.xml => cIEMP\src\main\AndroidManifest.xml
+* assets\ => cIEMP\src\main\assets
+* libs\android-async-http-1.4.6.jar => cIEMP\libs\android-async-http-1.4.6.jar
+* libs\android-smart-image-view-1.0.0.jar => cIEMP\libs\android-smart-image-view-1.0.0.jar
+* libs\crittercism_v3_0_3_sdkonly.jar => cIEMP\libs\crittercism_v3_0_3_sdkonly.jar
+* libs\ksoap2-android-assembly-2.5.7-jar-with-dependencies.jar => cIEMP\libs\ksoap2-android-assembly-2.5.7-jar-with-dependencies.jar
+* libs\nineoldandroids-2.4.0.jar => cIEMP\libs\nineoldandroids-2.4.0.jar
+* libs\org.apache.http.legacy.jar => cIEMP\libs\org.apache.http.legacy.jar
+* res\ => cIEMP\src\main\res\
+* src\ => cIEMP\src\main\java\
+* src\.DS_Store => cIEMP\src\main\resources\.DS_Store
+* src\com\.DS_Store => cIEMP\src\main\resources\com\.DS_Store
+* src\com\chinaairlines\.DS_Store => cIEMP\src\main\resources\com\chinaairlines\.DS_Store
+* src\com\chinaairlines\ciemp\.DS_Store => cIEMP\src\main\resources\com\chinaairlines\ciemp\.DS_Store
+* src\com\chinaairlines\ciemp\list\.DS_Store => cIEMP\src\main\resources\com\chinaairlines\ciemp\list\.DS_Store
+* src\com\chinaairlines\component\.DS_Store => cIEMP\src\main\resources\com\chinaairlines\component\.DS_Store
+* src\com\fortysevendeg\.DS_Store => cIEMP\src\main\resources\com\fortysevendeg\.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello</string>
+    <string name="menu_settings">Settings</string>
+    <string name="gps_network_not_enabled">network not reachable</string>
+    <string name="open_location_settings">Please check network</string>
+    <string name="eConnection">Connection error</string>
+    <string name="ok">OK</string>
+    <string name="bRetry">Retry</string>
+    <string name="bClose">Exit</string>
+    
+    <!-- SplashScreen -->
+    <string name="bDownLoadCIAppstore">Update</string>
+    <string name="eVersion">EMP APP new version has released.</string>
+    <string name="eLoc">Please open the Location Service.</string>
+    
+    <!-- Login -->
+    <string name="tvAppName">China Airline App Store</string> 
+    <string name="etUserId">Staff ID</string>
+    <string name="etPwd">Password</string>
+    <string name="bLogin">Sign in</string>
+    
+	<!-- AppList -->
+    <string name="title_activity_list">List</string>
+    <string name="bSetting">Setting</string>
+    <string name="tAll">All</string>
+    <string name="tUpdate">Update</string>
+    <string name="pdWaiting">lease wait...</string>
+   
+    <!-- MainFragment -->
+	<string name="sNothing">No Apps can be used.</string>
+	
+    <!-- Detail -->
+
+    <string name="title_activity_detail">Detail</string>
+    <string name="bInstall">Install</string>
+    <string name="bUpdate">Update</string>
+    <string name="tDetaildownload">Click OK to download</string>
+    <string name="eDownloadF5">If you want to use this function, you need to install the VPN APP, go to install？</string>
+    
+    <!-- Setting -->
+    <string name="title_activity_setting">Setting</string>
+    <string name="bLogout">Log out</string>
+    <string name="tvName">Name：</string>
+    <string name="tvUser">ID：</string>
+    <string name="tvUnit">Unit：</string>
+    <string name="tvLanguage">Select Language</string>
+    <string name="tEnglish">English</string>
+    <string name="tChinese">繁體中文</string>
+    <string name="tvUpdateNotice">Notification Settings</string>
+    
+    <!-- Comment -->
+    <string name="tvComment">Please kindly leave your openion.</string>
+    <string name="etComment">Comments</string>
+    <string name="sSendOk">Thank you.</string>
+    <string name="sSendErr">Send failed</string>
+    <string name="sEmpty">Please write down your comment.</string>
+    <string name="sSelect_fbk_item">Please select feedback item.</string>
+    
+    <!-- ProgressDialog -->
+    <string name="downloading">Loading.Please wait.</string>
+    <string name="title_activity_comment">Comment</string>
+    
+    <!-- SlideMenu -->
+    <string name="APPs">App Store</string>
+    <string name="collectiion">Favorite</string>
+    <string name="notification">Notification</string>
+    <string name="comment">Feedback</string>
+    <string name="renew">Renew Item</string>
+    <string name="tk_camera">Take from camera</string>
+    <string name="tk_photo_gallery">Select from gallery</string>
+    <string name="select_photo">Please select a Photo</string>
+    <string name="select_crop_app">Choose Crop App</string>
+    <string name="crop_not_found">Can not find image crop app</string>
+     <!-- Notification -->
+    <string name="delete">Delete</string>
+    <!-- Notification -->
+    <string name="unread">Unread</string>
+    <string name="read">Read</string>
+    <!-- ErrorMsg -->
+    <string name="eLogin">Login failed.</string>
+    <!-- GCM -->
+        
+    <!--<string name="error_config">Please set the %1$s constant and recompile the app.</string>-->
+    <!--<string name="already_registered">Device is already registered on server.</string>-->
+    <!--<string name="gcm_registered">From GCM: device successfully registered!</string>-->
+    <!--<string name="gcm_unregistered">From GCM: device successfully unregistered!</string>-->
+    <!--<string name="gcm_message">From GCM: you got message!</string>-->
+    <!--<string name="gcm_error">From GCM: error (%1$s).</string>-->
+    <!--<string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>-->
+    <!--<string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>-->
+    <!--<string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>-->
+    <!--<string name="server_registered">From Demo Server: successfully added device!</string>-->
+    <!--<string name="server_unregistered">From Demo Server: successfully removed device!</string>-->
+    <!--<string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>-->
+    <!--<string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>-->
+    <!--<string name="options_register">Register</string>-->
+    <!--<string name="options_unregister">Unregister</string>-->
+    <!--<string name="options_clear">Clear</string>-->
+    <!--<string name="options_exit">Exit</string>-->
+
+    <string name="EMunu">Constructing...</string>
+
+    <string name="app_disabled_message">App is out of service,please remove App</string>
+    <string name="app_unavailable">EMP is out of service</string>
+    <string name="app_storage_error">App data corrupt, please reinstall</string>
+    <string name="app_system_error">App 系統異常</string>
+    <string name="app_storage_not_enough">Storage space is lower than 20MB</string>
+    <string name="network_not_available">Network unreachable.</string>
+    <string name="location_unavailable_msg">Please check GPS is on.</string>
+    <string name="timeout_msg">Server busy, please try again later.</string>
+    <string name="updatefail_msg">Updated failed, please try again later.</string>
+    <string name="custom_tab_label">"%1$s (custom tab)"</string>
+    <string name="ePermission">Please grant all necessary permissions.</string>
+    <string name="bCancel">Cancel</string>
+    <string name="eLogout">Sure to log out?</string>
+    <string name="github">GitHub</string>
+    <string name="github_label">SlidingMenu on GitHub</string>
+    <string name="title_activity_management">Management</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_version">App Version.</string>
+    <string name="tablet_Os">Device platform</string>
+    <string name="device_id">DeviceId</string>
+    <string name="tablet_Os_Code">Device Model</string>
+    <string name="reset">Reset</string>
+    <string name="resetMsg">Sure to Reset? Please enter password</string>
+    <string name="setErr">Input error, please re-try</string>
+    <string name="ErrMsg">Error Message</string>
+    <string name="report">Report error</string>
+    <string name="eReport">Report failed</string>
+    <string name="sReport">Report successed</string>
+</resources>

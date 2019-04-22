@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="green_light">#ff99cc00</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="blue_light">#ff33b5e5</color>
+    <color name="colorPrimary">#00aeef</color>
+    <color name="colorPrimaryDark">#00A2DF</color>
+    <color name="colorlanguage">#0088F6</color>
+    <color name="colorAccent">#FFAB00</color>
+    
+    <!-- Went to: $android-sdk > Android:v14 > res > values > colors.xml and copied the colors-->
+    
+</resources>

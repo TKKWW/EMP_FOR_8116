@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativelayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <com.chinaairlines.component.RoundedCornersSmartImageView
+                android:id="@+id/imageView1"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/app_store_icon" />
+
+            <ImageButton
+                android:id="@+id/delete_button1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/white"
+                android:src="@android:drawable/checkbox_off_background"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="3dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativelayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <com.chinaairlines.component.RoundedCornersSmartImageView
+                android:id="@+id/imageView2"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/app_store_icon" />
+
+            <ImageButton
+                android:id="@+id/delete_button2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/white"
+                android:src="@android:drawable/checkbox_off_background"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="3dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativelayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <com.chinaairlines.component.RoundedCornersSmartImageView
+                android:id="@+id/imageView3"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/app_store_icon" />
+
+            <ImageButton
+                android:id="@+id/delete_button3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/white"
+                android:src="@android:drawable/checkbox_off_background"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="3dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativelayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <com.chinaairlines.component.RoundedCornersSmartImageView
+                android:id="@+id/imageView4"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/app_store_icon" />
+
+            <ImageButton
+                android:id="@+id/delete_button4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/white"
+                android:src="@android:drawable/checkbox_off_background"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="3dp" />
+    </LinearLayout>
+
+</LinearLayout>
